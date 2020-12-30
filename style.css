@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+Body {  
+    font-family: Calibri, Helvetica, sans-serif;
+    background:url(image.jpg) no-repeat center center fixed;   
+    background-size: cover;
+    color: whitesmoke;
+  }  
+  a:link {
+    color:#1877f2;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .INPUT{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 400px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px black;
+  }
+  input[type=email]{
+      width: 300px;
+      border-radius: 4px;
+      height:30px;
+      
+  }
+  
+  input[type=password]{
+    width: 300px;
+    border-radius: 4px;
+    height:30px;
+  
+
+} button{
+    
+    width: 300px;
+    height:30px;
+    border-radius: 50px;
+    background-color:tomato;
+}
